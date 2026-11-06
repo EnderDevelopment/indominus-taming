@@ -1,0 +1,16 @@
+name: IndominusRex
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+commands:
+  indominus:
+    description: Spawn an Indominus Rex.
+    usage: /indominus
+  dinosaddle:
+    description: Get a Dino Saddle.
+    usage: /dinosaddle
+permissions:
+  indominus.spawn:
+    default: op
+  indominus.saddle:
+    default: op
